@@ -31,7 +31,7 @@ export default function Home() {
       width={["100vw", "auto"]}
       overflow="hidden"
       paddingTop="106px"
-      backgroundImage="./images/dots2.png"
+      backgroundImage="./images/dots3.png"
       backgroundSize="cover"
       backgroundRepeat="no-repeat"
     >

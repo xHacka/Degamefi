@@ -7,13 +7,13 @@ import {
   Heading,
   Link,
 } from "@chakra-ui/react";
-import { scaleMovementAnimation, spinMovementAnimation } from "../GlobalStyles";
+import { asymmetricalMovementAnimation } from "../GlobalStyles";
 import React from "react";
 import Typewriter from "typewriter-effect";
 
 const Landing = () => {
   return (
-    <Container minH="50vh" maxW="8xl" id="landing" >
+    <Container minH="50vh" maxW="8xl" id="landing">
       <Grid
         templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(2, 1fr)"]}
         gap="3rem"
@@ -27,9 +27,9 @@ const Landing = () => {
             left="0"
             top={["-10%", "-50%", "-20%", "-40%", "10%", "-50%"]}
             zIndex={-1}
-            animation={spinMovementAnimation}
             transformOrigin="center"
             src="./images/bla.png"
+            alt="Crystal Ball"
           />
           <Heading as="h1" fontSize={"clamp(1rem, 2.5rem, 2.5rem)"}>
             <Typewriter
@@ -85,22 +85,24 @@ const Landing = () => {
             />
           </Heading>
 
-          <Button
-            background="rgba(235, 235, 235, 0.28)"
-            backdropFilter="blur(1.5em)"
-            borderRadius="0.75em"
-            p="1.5em"
-            className="btn-hover"
-          >
-            <Link href="#tickets">GET YOUR TICKET!</Link>
-          </Button>
+          <Link href="#tickets">
+            <Button
+              background="rgba(235, 235, 235, 0.28)"
+              backdropFilter="blur(1.5em)"
+              borderRadius="0.75em"
+              p="1.5em"
+              className="btn-hover"
+            >
+              GET YOUR TICKET!
+            </Button>
+          </Link>
         </GridItem>
 
         <GridItem
-          _hover={{ animation: scaleMovementAnimation }}
+          _hover={{ animation: asymmetricalMovementAnimation }}
           order={[-1, -1, 1]}
         >
-          <Image src="./images/biglogo.png" />
+          <Image src="./images/biglogo.png" alt="biglogo"/>
         </GridItem>
       </Grid>
     </Container>

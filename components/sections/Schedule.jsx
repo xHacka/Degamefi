@@ -14,7 +14,7 @@ const Schedule = () => {
                 degamefi annual conference 2022
             </Heading>
             <Heading as='h2' textTransform="uppercase" className='schedule-subtitle'>
-                September 30 - 1 October
+                September 30 - October 1
             </Heading>
             <Text as='h2' textTransform="uppercase" pb="2em" className='schedule-subtitle'>
                 Tbilisi, Georgia</Text>
@@ -43,7 +43,11 @@ const Schedule = () => {
                         fontSize="1.5em"
                     >
                         {[...Array(10).keys()].map((event, key) => (
-                            <Text key={key}>10:00</Text>
+                            <Text key={key}>
+                                10:00
+                                &#11044;
+                                -----
+                                </Text>
                         ))}
                     </Box>
                 </Box>
@@ -60,7 +64,11 @@ const Schedule = () => {
                         fontSize="1.5em"
                     >
                         {[...Array(10).keys()].map((event, key) => (
-                            <Text key={key}>11:00</Text>
+                            <Text key={key}>
+                                11:00
+                                &#11044;
+                                -----
+                            </Text>
                         ))}
                     </Box>
                 </Box>
@@ -69,4 +77,5 @@ const Schedule = () => {
     )
 }
 
-export default Schedule
+export default Schedule;
+

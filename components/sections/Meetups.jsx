@@ -1,6 +1,6 @@
 import { Container, Box, Text, Image, Stack, Heading } from '@chakra-ui/react'
 import React from 'react'
-import MeetupsSlider from '../Slider/MeetupsSlider';
+import MeetupsSlider from '../sliders/MeetupsSlider';
 
 const Meetups = () => {
     return (

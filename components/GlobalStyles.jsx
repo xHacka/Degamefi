@@ -1,18 +1,27 @@
-import React from "react";
 import { Global, keyframes } from "@emotion/react";
 
+/*
 const scaleMovement = keyframes`
   0%   { transform: scale(1);}
   50%  { transform: scale(.8); }
   100% { transform: scale(1); }
 `;
+ 
+const spinMovement = keyframes` 100% { transform: rotate(360deg); } `;
+*/
 
-const spinMovement = keyframes`
-  100% { transform: rotate(360deg); }
+const asymmetricalMovement = keyframes`
+  0% { transform: translate(0, 0) }
+  20% { transform: translate(-50px, 50px) }
+  40% { transform: translate(-50px, -50px) }
+  60% { transform: translate(50px, 50px) }
+  80% { transform: translate(50px, -50px) }
+  100% { transform: translate(0, 0) }
 `;
 
-export const scaleMovementAnimation = `${scaleMovement} infinite 2s linear`; 
-export const spinMovementAnimation = `${spinMovement} infinite 60s linear`;
+// export const scaleMovementAnimation = `${scaleMovement} infinite 2s linear`;
+// export const spinMovementAnimation = `${spinMovement} infinite 60s linear`;
+export const asymmetricalMovementAnimation = `${asymmetricalMovement} infinite 4s linear`;
 
 const GlobalStyles = () => {
   return (
