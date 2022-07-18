@@ -1,0 +1,8 @@
+/* nova-square-latin-400-normal*/
+@font-face {
+  font-family: "PixelSplitter";
+  font-style: bold;
+  font-display: swap;
+  font-weight: 700;
+  src: url("./files/PixelSplitter.ttf");
+}

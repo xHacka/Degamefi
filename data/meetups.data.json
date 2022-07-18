@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "month": "april",
+    "year": 2022,
+    "imgs": [
+      "./images/meetups/april/1.jpg",
+      "./images/meetups/april/2.jpg",
+      "./images/meetups/april/3.jpg",
+      "./images/meetups/april/4.jpg",
+      "./images/meetups/april/5.jpg"
+    ],
+    "text": "On April 14, DeGameFi held the first ever MeetUp in Georgia, for people interested in DeFI/ GameFI/ NFT Industries. On this day we've discussed several Georgian start-ups & our connections & partnerships turned into one organic development-oriented community with whom we are continuing our MeetUp series."
+  },
+  {
+    "id": 2,
+    "month": "may",
+    "year": 2022,
+    "imgs": [
+      "./images/meetups/may/1.jpg",
+      "./images/meetups/may/2.jpg",
+      "./images/meetups/may/3.jpg",
+      "./images/meetups/may/4.jpg",
+      "./images/meetups/may/5.jpg"
+    ],
+    "text": "On May 18, DeGameFi held the 2nd event, our team organized best environment for the startups to present themselves and get the spotlight from investors and not only. We managed to gather 150+ blockchain industry related people and connected with each-other."
+  },
+  {
+    "id": 3,
+    "month": "june",
+    "year": 2022,
+    "imgs": [
+      "./images/meetups/june/1.jpg",
+      "./images/meetups/june/2.jpg",
+      "./images/meetups/june/3.jpg",
+      "./images/meetups/june/4.jpg",
+      "./images/meetups/june/5.jpg"
+    ],
+    "text": "June 16th DeGameFi's 3rd MeetUp took place and it's theme was NFT. We organized NFT exhibition, discussion panel and presentations. Plenty of interesting, innovative and amazing NFT Project were presented by young bloods, who believe in their work. \nTo sum up at this event DeGameFI connected more than 150 people with each other."
+  }
+]
